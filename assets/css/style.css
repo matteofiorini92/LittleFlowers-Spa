@@ -38,7 +38,8 @@ footer p {
 /*--------------------------------------------Margins/Paddings*/
 
 body {
-    font-family: "Montseerat",sans-serif;
+    font-family: "Philosopher",sans-serif;
+    font-size: 20px;
 }
 
 .col-4 {
@@ -81,6 +82,11 @@ body {
     width: 100%;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
 /*--------------------------------------------Banner*/
 
 .banner {
@@ -104,11 +110,12 @@ body {
     font-weight: 400;
 }
 
-@media (max-width:1000px) {
+@media (max-width:600px) {
     .welcome {
         font-family: "Philosopher",sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
+        padding-top: 80px;
     }
 }
 
@@ -136,6 +143,7 @@ body {
 .feature h5 {
     font-family: "Philosopher",sans-serif;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .treatments, .facilities, .team {
@@ -143,22 +151,12 @@ body {
     margin: 2.5%;
 }
 
-.treatments {
-    margin-left: 5%;
-}
-
-.team {
-    margin-right: 5%;
-}
-
-
-
 .btn-feature {
     margin-top: 30px;
 }
 
 .features {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 
@@ -178,7 +176,7 @@ body {
     font-family: "Philosopher",sans-serif;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .quote .quoted-text {
