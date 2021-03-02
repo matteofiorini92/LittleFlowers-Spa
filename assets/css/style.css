@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 /*--------------------------------------------Colors*/
 
 body {
@@ -20,7 +22,7 @@ footer {
     color: rgb(245, 245, 245);
 }
 
-.banner .welcome {
+.welcome {
     color: rgb(245, 245, 245);
     font-weight: 300;
 }
@@ -82,14 +84,34 @@ footer p {
     margin-bottom: 15px;
 }
 
-.banner .layer {
+.layer {
     height: 100%;
 }
 
-.banner .welcome {
-    font-size: 40px;
+.welcome {
+    font-family: "Tangerine",sans-serif;
+    font-size: 100px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 180px;
+    font-weight: 700;
+}
+
+@media (max-width:1000px) {
+    .welcome {
+        font-family: "Tangerine",sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.welcome-icon {
+    text-align: center;
+}
+
+.welcome-icon i {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(245, 245, 245);
 }
 
 /*--------------------------------------------Features*/
@@ -101,6 +123,11 @@ footer p {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
+}
+
+.feature h5 {
+    font-family: "Tangerine",sans-serif;
+    font-size: 30px;
 }
 
 .features .treatments, .features .facilities, .features .team {
@@ -122,6 +149,8 @@ footer p {
 }
 
 .quotes h4 {
+    font-family: "Tangerine",sans-serif;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -141,6 +170,21 @@ footer p {
     text-align: right;
 }
 
+.quotes .quote-icon i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background: #7e0000;
+}
+
+.col-sm-1 {
+    text-align: right;
+    padding-top: 30px;
+}
 
 /*--------------------------------------------Footer*/
 
@@ -154,11 +198,11 @@ footer {
 
 
 .social-links li a i {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: rgb(245, 245, 245);
     background: #7e0000;
