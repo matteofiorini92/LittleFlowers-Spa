@@ -39,6 +39,10 @@ footer p {
     padding: 0;
 }
 
+.col-sm-1 {
+    padding: 0;
+}
+
 .header {
     margin: 0;
 }
@@ -92,16 +96,19 @@ footer p {
 
 .feature {
     text-align: center;
-    height: 40vh;
+    min-height: 30vh;
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .features .treatments, .features .facilities, .features .team {
     background-color: rgba(182, 60, 60, 0.3);
     margin: 2.5%;
 }
+
+
 
 
 
@@ -146,9 +153,15 @@ footer {
 }
 
 
-.fa {
-    font-size: xx-large;
-    padding-right: 15px;
+.social-links li a i {
+    width: 64px;
+    height: 64px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background: #7e0000;
 }
 
 .footer-heading {
