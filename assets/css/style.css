@@ -11,14 +11,18 @@ footer {
 }
 
 .navbar {
-    background-color: rgba(180, 0, 39, 0.8);
+    background-color: rgb(180, 0, 39);
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: rgb(245, 245, 245);
 }
 
 .navbar .active {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar a, .social-links a {
+.social-links a {
     color: rgb(245, 245, 245);
 }
 
@@ -31,6 +35,22 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.feature h5 {
+    color: rgb(180, 0, 39);
+}
+
+.feature p {
+    color: rgb(83, 0, 0);
+}
+
+.quotes h4 {
+    color: rgb(165, 23, 54);
+}
+
+.quoted-text {
+    color: rgb(114, 19, 39)
+}
+
 footer p {
     color: rgb(245, 245, 245);
 }
@@ -40,6 +60,11 @@ footer p {
 body {
     font-family: "Philosopher",sans-serif;
     font-size: 20px;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    padding: 0;
 }
 
 .col-4 {
@@ -85,6 +110,15 @@ body {
 .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
     border: 0;
+}
+
+.navbar .nav-item {
+    text-transform: capitalize;
+}
+
+.navbar-brand {
+    letter-spacing: 5px;
+    font-size: 30px;
 }
 
 /*--------------------------------------------Banner*/
@@ -209,6 +243,10 @@ body {
 .col-sm-1 {
     text-align: right;
     padding-top: 30px;
+}
+
+.footer-heading {
+    margin-bottom: 5px;
 }
 
 
