@@ -1,16 +1,55 @@
+/*--------------------------------------------Colors*/
+
+body {
+    background-color: rgba(120, 40, 36, 0.2);
+}
+
+footer {
+    background-color: rgba(167, 39, 39, 0.8);
+}
+
+.navbar {
+    background-color: rgba(180, 0, 39, 0.8);
+}
+
+.navbar .active {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar a, .social-links a {
+    color: rgb(245, 245, 245);
+}
+
+.banner .welcome {
+    color: rgb(245, 245, 245);
+    font-weight: 300;
+}
+
+.banner .layer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+    color: rgb(245, 245, 245);
+}
+
+/*--------------------------------------------Margins/Paddings*/
+
+.col-4 {
+    padding: 0;
+}
+
 .header {
     margin: 0;
 }
 
-footer {
+.footer {
     margin: 0;
-    background-color: rgba(83, 42, 15, 0.8);
 }
 
 .navbar {
     padding: 0;
     margin: 0;
-    background-color: rgba(116, 58, 20, 0.8);
 }
 
 .navbar .nav-item {
@@ -18,15 +57,19 @@ footer {
     display: block;
 }
 
-.navbar a {
-    color: whitesmoke;
+
+
+
+/*--------------------------------------------Header*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
 }
 
-.navbar .active {
-    background-color: rgba(0, 0, 0, 0.6);
-}
+/*--------------------------------------------Banner*/
 
-header {
+.banner {
     background: url("/assets/images/akyurt.jpg");
     background-size: auto;
     height: 70vh;
@@ -35,55 +78,79 @@ header {
     margin-bottom: 15px;
 }
 
-header .layer {
-    background-color: rgba(0, 0, 0, 0.4);
+.banner .layer {
     height: 100%;
 }
 
-.main .welcome {
+.banner .welcome {
     font-size: 40px;
-    color: #b96f00;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 200px;
 }
+
+/*--------------------------------------------Features*/
 
 .feature {
     text-align: center;
     height: 40vh;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.features .treatments {
-    background-color: rgba(245, 137, 75, 0.3);
+.features .treatments, .features .facilities, .features .team {
+    background-color: rgba(182, 60, 60, 0.3);
     margin: 2.5%;
 }
 
-.features .facilities {
-    background-color: rgba(173, 95, 49, 0.3);
-    margin: 2.5%;
-}
 
-.features .team {
-    background-color: rgba(109, 68, 22, 0.3);
-    margin: 2.5%;
-}
 
-.col-4 {
-    padding: 0;
-}
+/*--------------------------------------------Quotes*/
+
 
 .quotes {
     height: auto;
     margin-left: 2.5%;
+    margin-top: 40px;
 }
 
-.quote h6 {
+.quotes h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote .quoted-text {
+    margin-top: 15px;
     font-style: italic;
+
 }
 
 .quote p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.quote .author {
     text-align: right;
 }
 
+
+/*--------------------------------------------Footer*/
+
+footer {
+    height: auto;
+}
+
 .address, .contacts, .social {
-    padding: 10px 0px 0px 20px;
+    padding: 20px 0px 0px 35px;
+}
+
+
+.fa {
+    font-size: xx-large;
+    padding-right: 15px;
+}
+
+.footer-heading {
+    font-weight: 700;
 }
