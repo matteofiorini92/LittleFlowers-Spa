@@ -202,10 +202,11 @@ body {
 }
 
 @media (min-width: 576px) {
-.feature-col {
-    width: 32%;
-    margin-left: 0.66%;
-    margin-right: 0.66%;
+    .feature-col {
+        width: 32%;
+        margin-left: 0.66%;
+        margin-right: 0.66%;
+    }
 }
 
 
