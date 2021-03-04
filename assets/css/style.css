@@ -64,6 +64,10 @@ footer p {
     color: rgb(245, 245, 245);
 }
 
+.team-row {
+    background-color: rgba(182, 60, 60, 0.3);
+}
+
 /*--------------------------------------------Margins/Paddings*/
 
 body {
@@ -292,4 +296,58 @@ footer {
     text-align: center;
     color: rgb(245, 245, 245);
     background: #7e0000;
+}
+
+
+/*--------------------------------------------Team - Page*/
+
+.team-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.team-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+}
+
+.team-description-reverse {
+    text-align: right;
+}
+
+@media (max-width: 576px) {
+    .team-description {
+        text-align: justify;
+    }
+}
+
+.container-team-pic {
+    align-self: center;
+}
+
+.team-pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#team-pic-staff-1 {
+    background-image: url(/assets/images/staff\ 1\ 2.jpg);
+    
+}
+
+#team-pic-staff-2, #team-pic-staff-2-mobile {
+    background-image: url(/assets/images/staff\ 2\ 2.jpg);
+    
+}
+
+#team-pic-staff-3 {
+    background-image: url(/assets/images/staff\ 3\ 2.jpg);
+    
 }
