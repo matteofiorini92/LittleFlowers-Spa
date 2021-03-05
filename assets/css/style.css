@@ -64,8 +64,21 @@ footer p {
     color: rgb(245, 245, 245);
 }
 
+.staff-name {
+    background-color: rgb(180, 0, 39);
+    color:  rgb(245, 245, 245);
+}
+
 .team-row {
     background-color: rgba(182, 60, 60, 0.3);
+}
+
+.team-description {
+    color: rgb(83, 0, 0);
+}
+
+.staff-feature p {
+    background-color: rgba(245, 245, 245, 0.8);
 }
 
 /*--------------------------------------------Margins/Paddings*/
@@ -139,9 +152,8 @@ body {
 
 /*--------------------------------------------Banner*/
 
-.banner {
+.banner-home {
     background: url("/assets/images/akyurt.jpg");
-    background-size: auto;
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,8 +313,22 @@ footer {
 
 /*--------------------------------------------Team - Page*/
 
+.banner-team {
+    background: url("/assets/images/ayurmana-ayurveda.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.staff-name {
+    text-align: center;
+    font-size: 30px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
 .team-row {
-    margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -319,9 +345,12 @@ footer {
     text-align: right;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .team-description {
         text-align: justify;
+    }
+    .team-pic {
+        margin-bottom: 30px;
     }
 }
 
@@ -330,24 +359,24 @@ footer {
 }
 
 .team-pic {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #team-pic-staff-1 {
-    background-image: url(/assets/images/staff\ 1\ 2.jpg);
+    background-image: url(/assets/images/staff-1-sm.jpg);
     
 }
 
 #team-pic-staff-2, #team-pic-staff-2-mobile {
-    background-image: url(/assets/images/staff\ 2\ 2.jpg);
+    background-image: url(/assets/images/staff-2-sm.jpg);
     
 }
 
 #team-pic-staff-3 {
-    background-image: url(/assets/images/staff\ 3\ 2.jpg);
+    background-image: url(/assets/images/staff-3-sm.jpg);
     
 }
