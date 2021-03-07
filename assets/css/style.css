@@ -81,6 +81,18 @@ footer p {
     background-color: rgba(245, 245, 245, 0.8);
 }
 
+.facility {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.facility h5 {
+    color: rgb(180, 0, 39);
+}
+
+.facility p {
+    color: rgb(83, 0, 0);
+}
+
 /*--------------------------------------------Margins/Paddings*/
 
 body {
@@ -157,7 +169,7 @@ body {
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .layer {
@@ -318,7 +330,7 @@ footer {
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .staff-name {
@@ -380,3 +392,52 @@ footer {
     background-image: url(/assets/images/staff-3-sm.jpg);
     
 }
+
+/*--------------------------------------------Facilities - Page*/
+
+.banner-facilities {
+    background: url("/assets/images/ayurmana-ayurveda.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.facility {
+    height: 250px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.facility h5 {
+    font-family: "Philosopher",sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.facility-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pool {
+    background-image: url("/assets/images/logan-stone.jpg");
+
+}
+
+.sauna {
+    background-image: url("/assets/images/sauna.jpg");
+
+}
+
+.steam-room {
+    background-image: url("/assets/images/steam-room.jpg");
+
+}
+
+.jacuzzi {
+    background-image: url("/assets/images/jacuzzi.jpg");
+
+}
+
