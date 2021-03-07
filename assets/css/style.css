@@ -326,10 +326,11 @@ footer {
 /*--------------------------------------------Team - Page*/
 
 .banner-team {
-    background: url("/assets/images/ayurmana-ayurveda.jpg");
+    background: url("/assets/images/team-banner.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 40px;
 }
 
@@ -396,10 +397,11 @@ footer {
 /*--------------------------------------------Facilities - Page*/
 
 .banner-facilities {
-    background: url("/assets/images/ayurmana-ayurveda.jpg");
+    background: url("/assets/images/facilities-banner.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 40px;
 }
 
@@ -441,3 +443,13 @@ footer {
 
 }
 
+/*--------------------------------------------Treatments*/
+
+.banner-treatments {
+    background: url("/assets/images/treatments-banner-bis.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+}
