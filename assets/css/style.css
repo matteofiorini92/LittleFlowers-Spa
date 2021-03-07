@@ -134,16 +134,19 @@ body {
     margin: 0;
 }
 
-.navbar .nav-item {
+.navbar .nav-link {
     text-transform: uppercase;
     display: block;
 }
+
+
 
 /*--------------------------------------------Header*/
 
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar-light .navbar-toggler {
@@ -166,10 +169,6 @@ body {
 
 .banner-home {
     background: url("/assets/images/akyurt.jpg");
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 40px;
 }
 
 .layer {
@@ -327,11 +326,7 @@ footer {
 
 .banner-team {
     background: url("/assets/images/team-banner.jpg");
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 40px;
 }
 
 .staff-name {
@@ -398,11 +393,7 @@ footer {
 
 .banner-facilities {
     background: url("/assets/images/facilities-banner.jpg");
-    height: 50vh;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 40px;
 }
 
 .facility {
@@ -447,9 +438,15 @@ footer {
 
 .banner-treatments {
     background: url("/assets/images/treatments-banner-bis.jpg");
-    height: 50vh;
+    background-position: center;
+}
+
+/*--------------------------------------------Banner*/
+
+.banner {
+    background-attachment: fixed;
+    height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 40px;
 }
