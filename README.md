@@ -2,11 +2,7 @@
 
 # Little Flowers SPA
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
-Little Flowers is a SPA that offers a multitude of services, treatements and products.
+Little Flowers is a SPA that offers a multitude of services, treatements and facilities.
 
  
 ## UX
@@ -19,8 +15,6 @@ The goal of this website is to showcase them and allow customers to get to know 
 - As a SPA customer, I want to know who would perform the treatment, what's their professional background and what they are specialised in
 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
@@ -44,9 +38,12 @@ In this section, you should go over the different parts of your project, and des
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-- https://animate.style/
+- [Bootstrap](https://getbootstrap.com/)
+- [Animate.css](https://animate.style/) for transitions in navbar
+- [FontAwesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/)
+
+
 
 ## Testing
 
@@ -86,6 +83,21 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from
+
+- [Unsplash](https://unsplash.com/)
+    - [home banner](https://unsplash.com/photos/SMwCQZWayj0)
+    - [staff 1](https://unsplash.com/photos/nwdPxI1h4NQ)
+    - [staff 2](https://unsplash.com/photos/ROJFuWCsfmA)
+    - [pool](https://unsplash.com/photos/hCTLx7QrE-w)
+
+- [Pixabay](https://pixabay.com/)
+    - [staff 3](https://pixabay.com/photos/face-cute-happy-man-male-person-2171923/)
+    - [sauna](https://pixabay.com/photos/woman-sauna-spa-wellness-beauty-936549/)
+    - [jacuzzi](https://pixabay.com/photos/pool-water-swimming-sport-holiday-3810389/)
+    - [steam room](https://pixabay.com/photos/spa-day-steam-relaxation-relax-4671389/)
+    - [facilities](https://pixabay.com/photos/bathing-person-water-foam-soap-918720/)
+    - [treatments](https://pixabay.com/photos/spa-woman-facial-beauty-salon-4481538/)
+    - [team](https://pixabay.com/photos/relaxation-spa-massage-686392/)
 
 ### Acknowledgements
