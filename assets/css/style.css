@@ -93,6 +93,18 @@ footer p {
     color: rgb(83, 0, 0);
 }
 
+.treatment {
+    background-color: rgba(182, 60, 60, 0.3);
+}
+
+.treatment h5 {
+    color: rgb(180, 0, 39);
+}
+
+.treatment p {
+    color: rgb(83, 0, 0);
+}
+
 /*--------------------------------------------Margins/Paddings*/
 
 body {
@@ -101,7 +113,7 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 40px;
+    margin-left: 5%;
     padding: 0;
 }
 
@@ -451,6 +463,39 @@ footer {
 }
 
 
+/*--------------------------------------------Treatments*/
+
+.treatment {
+    height: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.treatment h5 {
+    font-family: "Philosopher",sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.treatment-bg {
+    width: 35%;
+    height: inherit;
+    margin: 0;
+    float: left;
+}
+
+.treatment-desc {
+    width: 65%;
+    float: left;
+    margin-top: 30px;
+}
+
+#hot-stones {
+    background-image: url(/assets/images/hot-stones-sm.jpg);
+}
+
+
+
 /* Effect from https://ianlunn.github.io/Hover/#effects */
 
 /* Sweep To Bottom */
@@ -474,7 +519,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
