@@ -494,6 +494,31 @@ footer {
     background-image: url(/assets/images/hot-stones-sm.jpg);
 }
 
+#facial {
+    background-image: url(/assets/images/facial-sm.jpg);
+}
+
+#deep-tissue {
+    background-image: url(/assets/images/deep-tissue-sm.jpg);
+}
+
+#bath {
+    background-image: url(/assets/images/bath-sm.jpg);
+}
+
+#pedicure {
+    background-image: url(/assets/images/pedicure-sm.jpg);
+}
+
+#head-shoulders {
+    background-image: url(/assets/images/head-shoulders-sm.jpg);
+}
+
+.treatment-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 /* Effect from https://ianlunn.github.io/Hover/#effects */
