@@ -125,6 +125,10 @@ body {
     padding: 0;
 }
 
+.navbar-nav .nav-link {
+    padding-left: 8px;
+}
+
 .fix-navbar-issue {
     padding-bottom: 44px;
 }
@@ -352,6 +356,10 @@ footer {
 .banner-team {
     background: url("/assets/images/team-banner.jpg");
     background-position: center;
+}
+
+.team-main .container {
+    max-width: 1000px;
 }
 
 .staff-name {
