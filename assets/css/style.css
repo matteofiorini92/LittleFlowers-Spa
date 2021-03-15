@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:wght@200;300;400;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
 /*--------------------------------------------Colors*/
 
@@ -75,6 +75,14 @@ footer p {
 
 .team-description {
     color: rgb(83, 0, 0);
+}
+
+.treatment-price {
+    background-color: rgba(182, 60, 60, 0.5);
+}
+
+.treatment-duration {
+    background-color: rgba(182, 60, 60, 0.4);
 }
 
 .staff-feature p {
@@ -159,6 +167,10 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+.navlink {
+    font-family: "Nunito", sans-serif;
 }
 
 .navbar-light .navbar-toggler {
@@ -307,10 +319,11 @@ body {
 
 footer {
     height: auto;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
 }
 
 .footer-heading {
-    font-family: "Philosopher", sans-serif;
     font-size: 25px;
 }
 
@@ -449,13 +462,6 @@ footer {
     font-size: 18px;
 }
 
-/*--------------------------------------------Treatments*/
-
-.banner-treatments {
-    background: url("/assets/images/treatments-banner-bis.jpg");
-    background-position: center;
-}
-
 /*--------------------------------------------Banner*/
 
 .banner {
@@ -466,8 +472,12 @@ footer {
     margin-bottom: 40px;
 }
 
-
 /*--------------------------------------------Treatments*/
+
+.banner-treatments {
+    background: url("/assets/images/treatments-banner-bis.jpg");
+    background-position: center;
+}
 
 .treatment {
     height: 250px;
@@ -481,6 +491,16 @@ footer {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .treatment h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .treatment p {
+        font-size: 15px;
+    }
+}
+
 .treatment-bg {
     width: 35%;
     height: inherit;
@@ -488,13 +508,39 @@ footer {
     float: left;
 }
 
-.treatment-desc {
+.treatment-body {
     width: 65%;
     float: left;
-    padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
     height: 100%;
+}
+
+.treatment-desc {
+    height: 85%;
+    padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.treatment-price {
+    width: 50%;
+    float: left;
+    height: 15%;
+    text-align: center;
+    padding-top: 5px;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.treatment-duration {
+    width: 50%;
+    float: left;
+    height: 15%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #hot-stones {
