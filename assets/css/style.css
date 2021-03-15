@@ -324,7 +324,7 @@ footer {
 }
 
 .footer-heading {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .address, .contacts, .social {
@@ -363,8 +363,8 @@ footer {
 
 .team-row {
     margin-bottom: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
 }
 
@@ -380,7 +380,7 @@ footer {
 
 @media (max-width: 768px) {
     .team-description {
-        text-align: justify;
+        text-align: left;
     }
     .team-pic {
         margin-bottom: 30px;
@@ -412,6 +412,11 @@ footer {
 #team-pic-staff-3 {
     background-image: url(/assets/images/staff-3-sm.jpg);
     
+}
+
+.staff-feature {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*--------------------------------------------Facilities - Page*/
