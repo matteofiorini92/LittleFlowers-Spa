@@ -475,21 +475,11 @@ footer {
     font-size: 18px;
 }
 
-/*--------------------------------------------Banner*/
-
-.banner {
-    background-attachment: fixed;
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 40px;
-}
-
 /*--------------------------------------------Treatments*/
 
 .banner-treatments {
     background: url("../images/treatments-banner-bis.jpg");
-    background-position: center;
+    background-position: right;
 }
 
 .treatment {
@@ -585,6 +575,18 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/*--------------------------------------------Banner*/
+
+.banner {
+    background-attachment: fixed;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------To organise*/
 
 .facility p, .facility h5 {
     opacity: 0;
