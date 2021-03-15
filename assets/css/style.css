@@ -196,7 +196,7 @@ body {
 /*--------------------------------------------Banner*/
 
 .banner-home {
-    background: url("/assets/images/akyurt.jpg");
+    background: url("assets/images/akyurt.jpg");
 }
 
 .layer {
@@ -354,7 +354,7 @@ footer {
 /*--------------------------------------------Team - Page*/
 
 .banner-team {
-    background: url("/assets/images/team-banner.jpg");
+    background: url("assets/images/team-banner.jpg");
     background-position: center;
 }
 
@@ -408,17 +408,17 @@ footer {
 }
 
 #team-pic-staff-1 {
-    background-image: url(/assets/images/staff-1-sm.jpg);
+    background-image: url(assets/images/staff-1-sm.jpg);
     
 }
 
 #team-pic-staff-2, #team-pic-staff-2-mobile {
-    background-image: url(/assets/images/staff-2-sm.jpg);
+    background-image: url(assets/images/staff-2-sm.jpg);
     
 }
 
 #team-pic-staff-3 {
-    background-image: url(/assets/images/staff-3-sm.jpg);
+    background-image: url(assets/images/staff-3-sm.jpg);
     
 }
 
@@ -430,7 +430,7 @@ footer {
 /*--------------------------------------------Facilities - Page*/
 
 .banner-facilities {
-    background: url("/assets/images/facilities-banner.jpg");
+    background: url("assets/images/facilities-banner.jpg");
     background-position: center;
 }
 
@@ -453,21 +453,21 @@ footer {
 }
 
 .pool {
-    background-image: url("/assets/images/logan-stone.jpg");
+    background-image: url("assets/images/logan-stone.jpg");
     background-position: center;
 }
 
 .sauna {
-    background-image: url("/assets/images/sauna.jpg");
+    background-image: url("assets/images/sauna.jpg");
 }
 
 .steam-room {
-    background-image: url("/assets/images/steam-room.jpg");
+    background-image: url("assets/images/steam-room.jpg");
     background-position: center;
 }
 
 .jacuzzi {
-    background-image: url("/assets/images/jacuzzi.jpg");
+    background-image: url("assets/images/jacuzzi.jpg");
     background-position: center;
 }
 
@@ -488,7 +488,7 @@ footer {
 /*--------------------------------------------Treatments*/
 
 .banner-treatments {
-    background: url("/assets/images/treatments-banner-bis.jpg");
+    background: url("assets/images/treatments-banner-bis.jpg");
     background-position: center;
 }
 
@@ -557,27 +557,27 @@ footer {
 }
 
 #hot-stones {
-    background-image: url(/assets/images/hot-stones-sm.jpg);
+    background-image: url(assets/images/hot-stones-sm.jpg);
 }
 
 #facial {
-    background-image: url(/assets/images/facial-sm.jpg);
+    background-image: url(assets/images/facial-sm.jpg);
 }
 
 #deep-tissue {
-    background-image: url(/assets/images/deep-tissue-sm.jpg);
+    background-image: url(assets/images/deep-tissue-sm.jpg);
 }
 
 #bath {
-    background-image: url(/assets/images/bath-sm.jpg);
+    background-image: url(assets/images/bath-sm.jpg);
 }
 
 #pedicure {
-    background-image: url(/assets/images/pedicure-sm.jpg);
+    background-image: url(assets/images/pedicure-sm.jpg);
 }
 
 #head-shoulders {
-    background-image: url(/assets/images/head-shoulders-sm.jpg);
+    background-image: url(assets/images/head-shoulders-sm.jpg);
 }
 
 .treatment-bg {
