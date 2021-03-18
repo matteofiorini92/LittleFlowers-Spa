@@ -1,8 +1,6 @@
-# MS1
+# LittleFlowers SPA
 
-# Little Flowers SPA
-
-Little Flowers is a SPA that offers a multitude of services, treatements and facilities.
+LittleFlowers is a SPA that offers a multitude of services, treatements and facilities.
 
 
 #Table Of Contents
@@ -13,8 +11,6 @@ Little Flowers is a SPA that offers a multitude of services, treatements and fac
 -   [Testing](#testing)
 -   [Deployment](#deployment)
 -   [Credits](#credits)
-
-
 
 ## User Experience
 
@@ -123,7 +119,7 @@ This project was developed using GitPod, pushed to GitHub and deployed using Git
 To deploy to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into GitHub
-2. From the list of repositories on the screen, select **matteofiorini92/MS1-Little-Flowers-SPA**
+2. From the list of repositories on the screen, select **matteofiorini92/LittleFlowers-SPA**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
 5. Under **Source** click the drop-down menu labelled **None** and select **main**
@@ -149,7 +145,7 @@ Then follow these steps:
 
 To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
-1. Follow this link to the [GitHub repository](https://github.com/matteofiorini92/MS1-Little-Flowers-SPA)
+1. Follow this link to the [GitHub repository](https://github.com/matteofiorini92/Flowers-SPA)
 2. Click on the Code button
 3. In the drop-down, copy the URL that you see in the HTTPs tab
 4. In your local IDE, open the terminal
@@ -160,15 +156,21 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+The text for the facilities and treatments descriptions were inspired by the following websites:
+- [steam room benefits](https://www.pinterest.ie/pin/382243087099210412/)
+- [sauna benefits](https://cryopurespa.com/infrared-sauna-benefits/)
+- [hot stone massage](https://www.healthline.com/health/hot-stone-massage#benefits)
+- [facial](https://www.tripsavvy.com/what-is-a-facial-3090025)
+
 
 ### Media
 The photos used in this site were obtained from
 
 - [Unsplash](https://unsplash.com/)
     - [home banner](https://unsplash.com/photos/SMwCQZWayj0)
-    - [staff 1](https://unsplash.com/photos/nwdPxI1h4NQ)
-    - [staff 2](https://unsplash.com/photos/ROJFuWCsfmA)
+    - [staff 1](https://unsplash.com/photos/ROJFuWCsfmA)
+    - [staff 2](https://unsplash.com/photos/nwdPxI1h4NQ)
     - [pool](https://unsplash.com/photos/hCTLx7QrE-w)
 
 - [Pixabay](https://pixabay.com/)
@@ -179,5 +181,11 @@ The photos used in this site were obtained from
     - [facilities](https://pixabay.com/photos/bathing-person-water-foam-soap-918720/)
     - [treatments](https://pixabay.com/photos/spa-woman-facial-beauty-salon-4481538/)
     - [team](https://pixabay.com/photos/relaxation-spa-massage-686392/)
+    - [hot stones](https://pixabay.com/photos/massage-relaxation-massage-389719/)
+    - [bath](https://pixabay.com/photos/people-man-water-bathtub-side-2603530/)
+    - [facial](https://pixabay.com/photos/spa-massage-beauty-lifestyle-woman-5388990/)
+    - [deep tissue](https://pixabay.com/photos/massage-shoulder-relaxation-massage-389716/)
+    - [head and shoulders](https://pixabay.com/photos/woman-young-massage-head-massage-3688233/)
+    - [manicure](https://pixabay.com/photos/people-hands-manicure-cuticle-2587157/)
 
 ### Acknowledgements
