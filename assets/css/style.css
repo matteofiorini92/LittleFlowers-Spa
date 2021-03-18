@@ -85,7 +85,7 @@ footer p {
     background-color: rgba(182, 60, 60, 0.4);
 }
 
-.staff-feature p {
+.staff-feature {
     background-color: rgba(245, 245, 245, 0.8);
 }
 
@@ -155,6 +155,11 @@ footer {
 .facility h5, .treatment h5, .feature h5 {
     font-family: "Philosopher",sans-serif;
     font-size: 30px;
+}
+
+.staff-feature p {
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 /*--------------------------------------------Margins/Paddings*/
@@ -420,7 +425,7 @@ footer {
     margin-right: auto;
 }
 
-#team-pic-staff-1 {
+#team-pic-staff-1, #team-pic-staff-1-mobile {
     background-image: url(../images/staff-1-sm.jpg);
     
 }
@@ -430,7 +435,7 @@ footer {
     
 }
 
-#team-pic-staff-3 {
+#team-pic-staff-3, #team-pic-staff-3-mobile {
     background-image: url(../images/staff-3-sm.jpg);
     
 }
@@ -438,6 +443,38 @@ footer {
 .staff-feature {
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .staff-feature {
+        margin-left: 0px;
+    }
+    .team-pic {
+        margin-top: 20px;
+    }
+
+}
+
+.staff-feature p{
+    padding-top: 5px;
+}
+
+.staff-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    background-color: rgba(245, 245, 245, 0.8);
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.staff-row {
+    min-height: 75px;
+    margin: 0;
 }
 
 /*--------------------------------------------Facilities - Page*/
