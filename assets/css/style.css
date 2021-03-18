@@ -89,10 +89,6 @@ footer p {
     background-color: rgba(245, 245, 245, 0.8);
 }
 
-/* .facility {
-    background-color: rgba(255, 255, 255, 0.4);
-} */
-
 .facility h5 {
     color: rgb(180, 0, 39);
 }
@@ -113,12 +109,55 @@ footer p {
     color: rgb(83, 0, 0);
 }
 
-/*--------------------------------------------Margins/Paddings*/
+/*--------------------------------------------Fonts*/
 
 body {
+    font-family: "Nunito",sans-serif;
+    font-size: 17px;
+}
+
+.navbar-brand {
+    letter-spacing: 5px;
+    font-size: 30px;
     font-family: "Philosopher",sans-serif;
+}
+
+.nav-link {
     font-size: 20px;
 }
+
+.welcome {
+    font-family: "Philosopher",sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+@media (max-width:600px) {
+    .welcome {
+        font-family: "Philosopher",sans-serif;
+        font-size: 40px;
+    }
+}
+
+.quotes h4 {
+    font-family: "Philosopher",sans-serif;
+    font-size: 35px;
+}
+
+footer {
+    font-size: 15px;
+}
+
+.footer-heading {
+    font-size: 20px;
+}
+
+.facility h5, .treatment h5, .feature h5 {
+    font-family: "Philosopher",sans-serif;
+    font-size: 30px;
+}
+
+/*--------------------------------------------Margins/Paddings*/
 
 .navbar-brand {
     margin-left: 5%;
@@ -163,8 +202,6 @@ body {
     display: block;
 }
 
-
-
 /*--------------------------------------------Header*/
 
 .navbar {
@@ -173,9 +210,7 @@ body {
     z-index: 1;
 }
 
-.navlink {
-    font-family: "Nunito", sans-serif;
-}
+
 
 .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
@@ -185,13 +220,6 @@ body {
 .navbar .nav-item {
     text-transform: capitalize;
 }
-
-.navbar-brand {
-    letter-spacing: 5px;
-    font-size: 30px;
-}
-
-
 
 /*--------------------------------------------Banner*/
 
@@ -204,17 +232,12 @@ body {
 }
 
 .welcome {
-    font-family: "Philosopher",sans-serif;
-    font-size: 80px;
     text-align: center;
     padding-top: 5%;
-    font-weight: 400;
 }
 
 @media (max-width:600px) {
     .welcome {
-        font-family: "Philosopher",sans-serif;
-        font-size: 40px;
         text-align: center;
         padding-top: 80px;
     }
@@ -242,8 +265,6 @@ body {
 }
 
 .feature h5 {
-    font-family: "Philosopher",sans-serif;
-    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -276,8 +297,6 @@ body {
 }
 
 .quotes h4 {
-    font-family: "Philosopher",sans-serif;
-    font-size: 35px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -323,12 +342,6 @@ body {
 
 footer {
     height: auto;
-    font-family: "Nunito", sans-serif;
-    font-size: 15px;
-}
-
-.footer-heading {
-    font-size: 20px;
 }
 
 .address, .contacts, .social {
@@ -442,8 +455,6 @@ footer {
 }
 
 .facility h5 {
-    font-family: "Philosopher",sans-serif;
-    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -489,8 +500,6 @@ footer {
 }
 
 .treatment h5 {
-    font-family: "Philosopher",sans-serif;
-    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -562,8 +571,8 @@ footer {
     background-image: url(../images/bath-sm.jpg);
 }
 
-#pedicure {
-    background-image: url(../images/pedicure-sm.jpg);
+#manicure {
+    background-image: url(../images/manicure-sm.jpg);
 }
 
 #head-shoulders {
