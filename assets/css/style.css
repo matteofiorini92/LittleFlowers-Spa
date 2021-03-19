@@ -60,7 +60,7 @@ footer {
     color: rgb(114, 19, 39)
 }
 
-footer p, footer h4 {
+footer p, footer h4, .contacts a {
     color: rgb(245, 245, 245);
 }
 
@@ -160,6 +160,11 @@ footer h4 {
 .staff-feature p {
     font-size: 20px;
     margin-bottom: 0;
+}
+
+.staff-name h4 {
+    font-family: "Philosopher",sans-serif;
+    font-size: 30px;
 }
 
 /*--------------------------------------------Margins/Paddings*/
@@ -380,9 +385,12 @@ footer {
     max-width: 1000px;
 }
 
-.staff-name {
+.staff-name h4 {
     text-align: center;
-    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.staff-name {
     margin-left: -12px;
     margin-right: -12px;
 }
@@ -405,9 +413,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .team-description {
+    /* .team-description {
         text-align: left;
-    }
+    } */
     .team-pic {
         margin-bottom: 30px;
     }
@@ -447,7 +455,7 @@ footer {
     margin-left: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .staff-feature {
         margin-left: 0px;
     }
@@ -775,4 +783,8 @@ footer {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: rgba(255, 255, 255, 0.6);
   color: white;
+}
+
+.contacts a {
+    text-decoration: none;
 }
