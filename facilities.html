@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LittleFlowers spa facilities include sauna, steam room, swimming pool and a hot tub">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/862a408407.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Little Flowers SPA</title>
+    <title>LittleFlowers - Facilities</title>
 </head>
 
 <body>
+
+    <!-- collapsible navbar 
+    structure copied from https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/03-progressive_enhancements_with_javascript_components-part-1/index.html -->
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">LittleFlowers</a>
@@ -39,20 +44,28 @@
             </ul>
         </div>
     </nav>
+
+    <!-- push banner down so that the navbar doesn't cover it -->
+
     <div class="fix-navbar-issue"></div>
+
+    <!-- page banner
+    animation imported from https://animate.style/ -->
 
     <section class="banner banner-facilities">
         <div class="layer">
             <div class="animate__animated animate__fadeIn animate__slower animate__delay-1s">
                 <div class="welcome">Visit our Facilities</div>
                 <div class="welcome-icon">
-                    <i class="fas fa-fan" aria-hidden="true"></i>
+                    <i class="fas fa-spa"></i>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="facilities-main">
+    <!-- description of the spa's facilities -->
+
+    <main class="facilities-main">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -84,7 +97,8 @@
                         <div class="facility hvr-fade">
                             <h3>Pool</h3>
                             <h5>Pool</h5>
-                            <p>Whether you want to go for a swim or just let yourself float, our pool is the right place for you.
+                            <p>Whether you want to go for a swim or just let yourself float, our pool is the right place
+                                for you.
                             </p>
                         </div>
                     </div>
@@ -102,14 +116,16 @@
             </div>
         </div>
 
-    </section>
+    </main>
+
+    <!-- page footer -->
 
     <footer>
-        <div class="row container-fluid no-gutter">
+        <div class="row container-fluid">
             <div class="col-12 col-sm-4 address">
-                <p class="footer-heading">
+                <h4>
                     LittleFlowers SPA
-                </p>
+                </h4>
                 <p>
                     37, Raleigh Row<br>
                     Galway<br>
@@ -117,18 +133,18 @@
                 </p>
             </div>
             <div class="col-12 col-sm-4 contacts">
-                <p class="footer-heading">
+                <h4>
                     Contact Us
-                </p>
+                </h4>
                 <p>
                     +353 (0)83 875 8944<br>
                     welcome@littleflowers.com
                 </p>
             </div>
             <div class="col-12 col-sm-4 social">
-                <p class="footer-heading">
+                <h4>
                     Visit our socials
-                </p>
+                </h4>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
@@ -152,6 +168,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- scripts for anymation in banner -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

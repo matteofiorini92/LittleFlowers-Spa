@@ -3,7 +3,7 @@
 LittleFlowers is a SPA that offers a multitude of services, treatements and facilities.
 
 
-#Table Of Contents
+# Table Of Contents
 
 -   [User Experience](#user-experience)
 -   [Features](#features)
@@ -47,6 +47,11 @@ The website will have a simple structure to meet the users needs:
 - All pages will have contact details in the footer, so that at any point the customer can contact the spa to check the availability and book an appointment.
 
 ### The Skeleton Plane
+
+- [Home Page Wireframe](https://drive.google.com/file/d/16jf2mTJFocQcSzgAo074IYApLB4rgJuD/view?usp=sharing)
+- [Treatments Page Wireframe](https://drive.google.com/file/d/1DI111dHViTy4XiTRItU8Bvbig9kdWBnV/view?usp=sharing)
+- [Facilities Page Wireframe](https://drive.google.com/file/d/1pFnuEb9Rg5QKEU8gdVohRA5FFmPtqEWZ/view?usp=sharing)
+- [Team Page Wireframe](https://drive.google.com/file/d/1mtRimAEPNAdOj-dA3KNnCuePRDBZf9XW/view?usp=sharing)
 
 ### The Surface Plane
 
@@ -109,6 +114,8 @@ After adding the container (or container-fluid) class, the issue was fixed.
 - I wasn't able to configure a collapsible navbar from [Bootstrap instructions](https://getbootstrap.com/docs/4.0/components/navbar/).
 I used the scripts at the end of [this repository](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/03-progressive_enhancements_with_javascript_components-part-1/index.html) instead.
 
+- I wanted the navbar to be always at the top of the page, even when scrolling down. This caused the navbar to cover the banner too.
+To avoid this, I just added a div called with class fix-navbar-issue, with the only purpos of "pushing down" the banner so that the navbar didn't cover it.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
