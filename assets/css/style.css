@@ -2,31 +2,59 @@
 
 /*--------------------------------------------Colors*/
 
+/*-----------------------------------Black*/
+
+.navbar .active {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Dark layer to increase contrast between welcome message and banner background*/
+
+.banner .layer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*-----------------------------------Red*/
+
 body {
-    background-color: rgba(120, 40, 36, 0.2);
+    background-color: rgb(228,212,211);
+}
+
+.navbar, .staff-name {
+    background-color: rgb(180, 0, 39);
 }
 
 footer {
     background-color: rgba(167, 39, 39, 0.8);
 }
 
-.navbar {
-    background-color: rgb(180, 0, 39);
+.facility h5, .treatment h5, .feature h5, .quotes h4 {
+    color: rgb(180, 0, 39);
 }
+
+.facility p, .treatment p, .feature p, .team-description, .quoted-text  {
+    color: rgb(83, 0, 0);
+}
+
+.feature-col, .team-row, .treatment-desc {
+    background-color: rgba(182, 60, 60, 0.3);
+}
+
+.treatment-duration {
+    background-color: rgba(182, 60, 60, 0.4);
+}
+
+.treatment-price {
+    background-color: rgba(182, 60, 60, 0.5);
+}
+
+/*-----------------------------------White*/
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
     color: rgb(245, 245, 245);
 }
 
-.navbar .active {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.social-links a {
-    color: rgb(245, 245, 245);
-}
-
-.feature button a {
+.feature button a, .contacts a {
     color: rgb(245, 245, 245);
     text-decoration: none;
 }
@@ -36,77 +64,16 @@ footer {
     font-weight: 300;
 }
 
-.banner .layer {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.feature h5 {
-    color: rgb(180, 0, 39);
-}
-
-.feature p {
-    color: rgb(83, 0, 0);
-}
-
-.feature-col {
-    background-color: rgba(182, 60, 60, 0.3);
-}
-
-.quotes h4 {
-    color: rgb(165, 23, 54);
-}
-
-.quoted-text {
-    color: rgb(114, 19, 39)
-}
-
-footer p, footer h4, .contacts a {
+footer p, footer h4, .social-links a {
     color: rgb(245, 245, 245);
 }
 
 .staff-name {
-    background-color: rgb(180, 0, 39);
     color:  rgb(245, 245, 245);
-}
-
-.team-row {
-    background-color: rgba(182, 60, 60, 0.3);
-}
-
-.team-description {
-    color: rgb(83, 0, 0);
-}
-
-.treatment-price {
-    background-color: rgba(182, 60, 60, 0.5);
-}
-
-.treatment-duration {
-    background-color: rgba(182, 60, 60, 0.4);
 }
 
 .staff-feature {
     background-color: rgba(245, 245, 245, 0.8);
-}
-
-.facility h5 {
-    color: rgb(180, 0, 39);
-}
-
-.facility p {
-    color: rgb(83, 0, 0);
-}
-
-.treatment-desc {
-    background-color: rgba(182, 60, 60, 0.3);
-}
-
-.treatment h5 {
-    color: rgb(180, 0, 39);
-}
-
-.treatment p {
-    color: rgb(83, 0, 0);
 }
 
 /*--------------------------------------------Fonts*/
@@ -116,10 +83,13 @@ body {
     font-size: 17px;
 }
 
+.navbar-brand, .welcome, .quotes h4, .facility h5, .treatment h5, .feature h5, .staff-name h4 {
+    font-family: "Philosopher",sans-serif;
+}
+
 .navbar-brand {
     letter-spacing: 5px;
     font-size: 30px;
-    font-family: "Philosopher",sans-serif;
 }
 
 .nav-link {
@@ -127,21 +97,14 @@ body {
 }
 
 .welcome {
-    font-family: "Philosopher",sans-serif;
     font-size: 80px;
     font-weight: 400;
 }
 
 @media (max-width:600px) {
     .welcome {
-        font-family: "Philosopher",sans-serif;
         font-size: 40px;
     }
-}
-
-.quotes h4 {
-    font-family: "Philosopher",sans-serif;
-    font-size: 35px;
 }
 
 footer {
@@ -152,22 +115,115 @@ footer h4 {
     font-size: 20px;
 }
 
+.quotes h4 {
+    font-size: 35px;
+}
+
 .facility h5, .treatment h5, .feature h5 {
-    font-family: "Philosopher",sans-serif;
     font-size: 30px;
 }
 
 .staff-feature p {
     font-size: 20px;
-    margin-bottom: 0;
 }
 
 .staff-name h4 {
-    font-family: "Philosopher",sans-serif;
     font-size: 30px;
 }
 
-/*--------------------------------------------Margins/Paddings*/
+/*--------------------------------------------Margins/Paddings - general*/
+
+/*push banner down so that the navbar doesn't cover it*/
+
+.fix-navbar-issue {
+    padding-bottom: 44px;
+}
+
+.col-4, .col-sm-1, .col-sm-4, .navbar {
+    padding: 0;
+}
+
+.header, .footer, .navbar {
+    margin: 0;
+}
+
+/*--------------------------------------------Images*/
+
+.banner-home {
+    background: url("../images/banner/home-banner.jpg");
+}
+
+.banner-team {
+    background: url("../images/banner/team-banner.jpg");
+    background-position: center;
+}
+
+.banner-facilities {
+    background: url("../images/banner/facilities-banner.jpg");
+    background-position: center;
+}
+
+.banner-treatments {
+    background: url("../images/banner/treatments-banner.jpg");
+    background-position: right;
+}
+
+#team-pic-staff-1, #team-pic-staff-1-mobile {
+    background-image: url("../images/team/team-1-sm.jpg");
+}
+
+#team-pic-staff-2, #team-pic-staff-2-mobile {
+    background-image: url("../images/team/team-2-sm.jpg");   
+}
+
+#team-pic-staff-3, #team-pic-staff-3-mobile {
+    background-image: url("../images/team/team-3-sm.jpg");
+}
+
+.pool {
+    background-image: url("../images/facilities/pool-sm.jpg");
+    background-position: center;
+}
+
+.sauna {
+    background-image: url("../images/facilities/sauna-sm.jpg");
+}
+
+.steam-room {
+    background-image: url("../images/facilities/steam-room-sm.jpg");
+    background-position: center;
+}
+
+.jacuzzi {
+    background-image: url("../images/facilities/hot-tub-sm.jpg");
+    background-position: center;
+}
+
+#hot-stones {
+    background-image: url("../images/treatments/hot-stones-sm.jpg");
+}
+
+#facial {
+    background-image: url("../images/treatments/facial-sm.jpg");
+}
+
+#deep-tissue {
+    background-image: url("../images/treatments/deep-tissue-sm.jpg");
+}
+
+#bath {
+    background-image: url("../images/treatments/bath-sm.jpg");
+}
+
+#manicure {
+    background-image: url("../images/treatments/manicure-sm.jpg");
+}
+
+#head-shoulders {
+    background-image: url("../images/treatments/head-shoulders-sm.jpg");
+}
+
+/*--------------------------------------------Header - all pages*/
 
 .navbar-brand {
     margin-left: 5%;
@@ -178,33 +234,14 @@ footer h4 {
     padding-left: 8px;
 }
 
-.fix-navbar-issue {
-    padding-bottom: 44px;
-}
-
-.col-4 {
-    padding: 0;
-}
-
-.col-sm-1 {
-    padding: 0;
-}
-
-.col-sm-4 {
-    padding: 0;
-}
-
-.header {
-    margin: 0;
-}
-
-.footer {
-    margin: 0;
-}
-
 .navbar {
-    padding: 0;
-    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
 }
 
 .navbar .nav-link {
@@ -212,30 +249,32 @@ footer h4 {
     display: block;
 }
 
-/*--------------------------------------------Header*/
+/*--------------------------------------------Footer - all pages*/
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+footer {
+    height: auto;
 }
 
-
-
-.navbar-light .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0);
-    border: 0;
+.address, .contacts, .social {
+    padding: 20px 0px 0px 35px;
 }
 
-.navbar .nav-item {
-    text-transform: capitalize;
+.contacts {
+    overflow-wrap: break-word;
 }
 
-/*--------------------------------------------Banner*/
-
-.banner-home {
-    background: url("../images/banner/home-banner.jpg");
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background: #7e0000;
 }
+
+/*--------------------------------------------Banner - all pages*/
 
 .layer {
     height: 100%;
@@ -263,7 +302,17 @@ footer h4 {
     color: rgb(245, 245, 245);
 }
 
-/*--------------------------------------------Features*/
+.banner {
+    background-attachment: fixed;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+/*--------------------------------------------Home page*/
+
+/*-----------------------------------Features*/
 
 .feature {
     text-align: center;
@@ -295,9 +344,7 @@ footer h4 {
     }
 }
 
-
-/*--------------------------------------------Quotes*/
-
+/*-----------------------------------Quotes*/
 
 .quotes {
     height: auto;
@@ -347,39 +394,7 @@ footer h4 {
     margin-bottom: 5px;
 }
 
-
-/*--------------------------------------------Footer*/
-
-footer {
-    height: auto;
-}
-
-.address, .contacts, .social {
-    padding: 20px 0px 0px 35px;
-}
-
-.contacts {
-    overflow-wrap: break-word;
-}
-
-.social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 30px;
-    text-align: center;
-    color: rgb(245, 245, 245);
-    background: #7e0000;
-}
-
-
 /*--------------------------------------------Team - Page*/
-
-.banner-team {
-    background: url("../images/banner/team-banner.jpg");
-    background-position: center;
-}
 
 .team-main .container {
     max-width: 1000px;
@@ -433,21 +448,6 @@ footer {
     margin-right: auto;
 }
 
-#team-pic-staff-1, #team-pic-staff-1-mobile {
-    background-image: url(../images/team/team-1-sm.jpg);
-    
-}
-
-#team-pic-staff-2, #team-pic-staff-2-mobile {
-    background-image: url(../images/team/team-2-sm.jpg);
-    
-}
-
-#team-pic-staff-3, #team-pic-staff-3-mobile {
-    background-image: url(../images/team/team-3-sm.jpg);
-    
-}
-
 .staff-feature {
     padding-left: 15px;
     padding-right: 15px;
@@ -479,18 +479,16 @@ footer {
     padding: 0px;
 }
 
-
 .staff-row {
     min-height: 75px;
     margin: 0;
 }
 
-/*--------------------------------------------Facilities - Page*/
-
-.banner-facilities {
-    background: url("../images/banner/facilities-banner.jpg");
-    background-position: center;
+.staff-feature p {
+    margin-bottom: 0;
 }
+
+/*--------------------------------------------Facilities - Page*/
 
 .facility {
     height: 250px;
@@ -508,35 +506,40 @@ footer {
     background-repeat: no-repeat;
 }
 
-.pool {
-    background-image: url("../images/facilities/pool-sm.jpg");
-    background-position: center;
-}
-
-.sauna {
-    background-image: url("../images/facilities/sauna-sm.jpg");
-}
-
-.steam-room {
-    background-image: url("../images/facilities/steam-room-sm.jpg");
-    background-position: center;
-}
-
-.jacuzzi {
-    background-image: url("../images/facilities/hot-tub-sm.jpg");
-    background-position: center;
-}
-
 .facility p {
     font-size: 18px;
 }
 
-/*--------------------------------------------Treatments*/
-
-.banner-treatments {
-    background: url("../images/banner/treatments-banner.jpg");
-    background-position: right;
+.facility p, .facility h5 {
+    opacity: 0;
+    transition: opacity 1s linear;
+    transition-delay: 3s;
+    display: none;
 }
+
+.facility:hover p, .facility:hover h5 {
+    opacity: 1;
+    display: block;
+}
+
+.facility h3 {
+    display: inline-block;
+    opacity: 1;
+    text-transform: uppercase;
+    color: rgb(83, 0, 0);
+    border: solid 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 3px 10px 3px 10px;
+    margin-top: 10%;
+    transition: opacity 1s linear;
+}
+
+.facility:hover h3 {
+    opacity: 0;
+    display: none;
+}
+
+/*--------------------------------------------Treatments - Page*/
 
 .treatment {
     height: 250px;
@@ -548,7 +551,7 @@ footer {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .treatment h5 {
         font-size: 20px;
         margin-bottom: 15px;
@@ -600,81 +603,17 @@ footer {
     color: rgba(0, 0, 0, 0.6);
 }
 
-#hot-stones {
-    background-image: url(../images/treatments/hot-stones-sm.jpg);
-}
-
-#facial {
-    background-image: url(../images/treatments/facial-sm.jpg);
-}
-
-#deep-tissue {
-    background-image: url(../images/treatments/deep-tissue-sm.jpg);
-}
-
-#bath {
-    background-image: url(../images/treatments/bath-sm.jpg);
-}
-
-#manicure {
-    background-image: url(../images/treatments/manicure-sm.jpg);
-}
-
-#head-shoulders {
-    background-image: url(../images/treatments/head-shoulders-sm.jpg);
-}
-
 .treatment-bg {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/*--------------------------------------------Banner*/
+/*--------------------------------------------Code from other sources*/
 
-.banner {
-    background-attachment: fixed;
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 40px;
-}
+/* Effects from https://ianlunn.github.io/Hover/#effects (both .hvr-sweep-to-bottom and .hvr-fade) */
 
-/*--------------------------------------------To organise*/
-
-.facility p, .facility h5 {
-    opacity: 0;
-    transition: opacity 1s linear;
-    transition-delay: 3s;
-    display: none;
-}
-
-.facility:hover p, .facility:hover h5 {
-    opacity: 1;
-    display: block;
-}
-
-.facility h3 {
-    display: inline-block;
-    opacity: 1;
-    text-transform: uppercase;
-    color: rgb(83, 0, 0);
-    border: solid 1px;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 3px 10px 3px 10px;
-    margin-top: 10%;
-    transition: opacity 1s linear;
-}
-
-.facility:hover h3 {
-    opacity: 0;
-    display: none;
-}
-
-
-/* Effect from https://ianlunn.github.io/Hover/#effects */
-
-/* Sweep To Bottom */
+/* Sweep To Bottom - used for navbar */
 .hvr-sweep-to-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -715,49 +654,7 @@ footer {
   transform: scaleY(1);
 }
 
-
-/* Sweep To Bottom */
-.hvr-sweep-to-bottom-white {
-  /* display: inline-block; */
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-.hvr-sweep-to-bottom-white:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.6);
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 0;
-  transform-origin: 50% 0;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-sweep-to-bottom-white:hover, .hvr-sweep-to-bottom-white:focus, .hvr-sweep-to-bottom-white:active {
-  color: white;
-}
-.hvr-sweep-to-bottom-white:hover:before, .hvr-sweep-to-bottom-white:focus:before, .hvr-sweep-to-bottom-white:active:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
-
-
+/* Added so that navbar elements don't become black when hovering */
 
 .navbar-light .navbar-brand:hover {
     color: rgb(255,255,255);
@@ -767,8 +664,7 @@ footer {
     color: rgba(255,255,255);
 }
 
-/* BACKGROUND TRANSITIONS */
-/* Fade */
+/* Fade - used for facilities page*/
 .hvr-fade {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -783,8 +679,4 @@ footer {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: rgba(255, 255, 255, 0.6);
   color: white;
-}
-
-.contacts a {
-    text-decoration: none;
 }
