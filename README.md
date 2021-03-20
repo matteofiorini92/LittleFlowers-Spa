@@ -1,6 +1,6 @@
 # LittleFlowers SPA
 
-LittleFlowers is a SPA that offers a multitude of services, treatements and facilities.
+LittleFlowers is a SPA that offers a multitude of services, treatments and facilities.
 
 
 # Table Of Contents
@@ -14,8 +14,6 @@ LittleFlowers is a SPA that offers a multitude of services, treatements and faci
 
 ## User Experience
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 -   [The Strategy Plane](#the-strategy-plane)
 -   [The Scope Plane](#the-Scope-plane)
 -   [The Structure Plane](#the-structure-plane)
@@ -26,6 +24,7 @@ Use this section to provide insight into your UX process, focusing on who this w
 ### The Strategy Plane
 
 The goal of this website is to showcase the spa, allowing customers to see what facilities are available, what treatments are offered and who is performing them.
+The owner of the spa wants to increase the visibility and online presence of his business in order to increment its revenue. 
 
 - As a SPA customer, I want to see the different treatments offered, their prices, and send enquiries to the SPA
 - As a SPA customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
@@ -60,8 +59,6 @@ Fonts will be:
 - Philosopher for headings and logo
 - Nunito for "normal" text
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ## Features
 
 -   [Existing Features](#existing-features)
@@ -70,9 +67,9 @@ This section is also where you would share links to any wireframes, mockups, dia
 ### Existing Features
 
 - Feature 1 - allows potential customers to see the treatments offered and their prices
-- Feature 2 - allows potential customers to know the staff and their professial background
+- Feature 2 - allows potential customers to know the staff and their professional background
 - Feature 3 - allows returning customers to check if the staff member who gave them the treatment previously is still working there, get their name and request the treatment with them again in case they enjoyed it the first time
-- Feature 4 - allows potential and returning customers to get in touch to check availablity, book or ask questions by calling or sending an email
+- Feature 4 - allows potential and returning customers to get in touch to check availability, book or ask questions by calling or sending an email
 - Feature 5 - allows potential customers to see all the social pages of the SPA
 - Feature 6 - allows potential customers to have a preview of the facilities available (sauna, steam room, pool, hot tub)
 
@@ -81,8 +78,6 @@ This section is also where you would share links to any wireframes, mockups, dia
 - Add booking system in the future
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [Balsamiq](https://balsamiq.com/) for the wireframes of this readme.md file
 - [Bootstrap](https://getbootstrap.com/) to use the grid system, pre-formatted buttons in home-page, collapsible navabr
@@ -94,17 +89,28 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Usability and responsiveness have been tested on the followin browsers:
+- Google Chrome (Version 89.0.4389.72 (Official Build) (x86_64))
+- Firefox (86.0 (64-bit))
+- Safari (Version 13.0.5 (15608.5.11))
+- Microsoft Edge (Version 89.0.774.57 (Official Build) (64bit))
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+All sections and divs adapted to the screen size as expected, all links worked fine and the navigation was flawless.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+The Google Chrome Lighthouse feature was used on all 4 pages to measure Performance, Accessibility, Best Practices and SEO.
+Results can be seen here:
+- [Home Page](https://drive.google.com/file/d/1LqFAXg9LEcX8hSRixCrZssSuM4UsEWF1/view?usp=sharing)
+- [Treatments](https://drive.google.com/file/d/1NTX8pMfEWF437KC5XKSmP4jCZ2FiddfG/view?usp=sharing)
+- [Facilities](https://drive.google.com/file/d/1JW-1BBOKBV93toSlPP3RQDHN3JowPKqU/view?usp=sharing)
+- [Team](https://drive.google.com/file/d/1gAoTLHpPtLj3pTHVrZT7TjbQlR31H1bi/view?usp=sharing)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I used the following validators to check my HTML and CSS code:
+
+[HTML Validator](https://validator.w3.org/)
+Document checking completed. No errors or warnings to show.
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+Outcome: Congratulations! No Error Found.
 
 ### Bugs
 
@@ -115,7 +121,7 @@ After adding the container (or container-fluid) class, the issue was fixed.
 I used the scripts at the end of [this repository](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/03-progressive_enhancements_with_javascript_components-part-1/index.html) instead.
 
 - I wanted the navbar to be always at the top of the page, even when scrolling down. This caused the navbar to cover the banner too.
-To avoid this, I just added a div called with class fix-navbar-issue, with the only purpos of "pushing down" the banner so that the navbar didn't cover it.
+To avoid this, I just added a div called with class fix-navbar-issue, with the only purpose of "pushing down" the banner so that the navbar didn't cover it.
 
 - I tried to set a transition in the Facilities pages using the visibility value, which didn't work. I found [here](https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working) the reason why and changed the transition to affect the opacity value.
 
@@ -157,7 +163,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 3. In the drop-down, copy the URL that you see in the HTTPs tab
 4. In your local IDE, open the terminal
 5. Change the current working directory to the location where you want the cloned directory to be made
-6. Type git clone and the paste the URL you copied in Step 3
+6. Type git clone and paste the URL you copied in Step 3
 7. Press Enter. Your local clone will be created.
 
 ## Credits
@@ -196,3 +202,5 @@ The photos used in this site were obtained from
     - [manicure](https://pixabay.com/photos/people-hands-manicure-cuticle-2587157/)
 
 ### Acknowledgements
+
+The content of the deployment section was mostly taken from [this webinar](https://www.youtube.com/watch?v=7BteidgLAyM).

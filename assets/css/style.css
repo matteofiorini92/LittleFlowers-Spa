@@ -99,13 +99,13 @@ body {
     font-size: 20px;
 }
 
-.welcome {
+.welcome h2 {
     font-size: 80px;
     font-weight: 400;
 }
 
 @media (max-width:600px) {
-    .welcome {
+    .welcome h2 {
         font-size: 40px;
     }
 }
