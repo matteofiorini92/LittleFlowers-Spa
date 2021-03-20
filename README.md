@@ -117,7 +117,7 @@ I used the scripts at the end of [this repository](https://github.com/Code-Insti
 - I wanted the navbar to be always at the top of the page, even when scrolling down. This caused the navbar to cover the banner too.
 To avoid this, I just added a div called with class fix-navbar-issue, with the only purpos of "pushing down" the banner so that the navbar didn't cover it.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- I tried to set a transition in the Facilities pages using the visibility value, which didn't work. I found [here](https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working) the reason why and changed the transition to affect the opacity value.
 
 ## Deployment
 

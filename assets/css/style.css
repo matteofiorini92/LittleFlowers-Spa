@@ -14,6 +14,10 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.author {
+    color: rgb(82, 82, 82);
+}
+
 /*-----------------------------------Red*/
 
 body {
@@ -32,8 +36,12 @@ footer {
     color: rgb(180, 0, 39);
 }
 
-.facility p, .treatment p, .feature p, .team-description, .quoted-text  {
+.facility p, .treatment p, .feature p, .team-description, .quoted-text, .treatment-price, .treatment-duration, .facility h3 {
     color: rgb(83, 0, 0);
+}
+
+.social-links li a i, .quotes .quote-icon i {
+    background-color: rgb(83, 0, 0);
 }
 
 .feature-col, .team-row, .treatment-desc {
@@ -54,26 +62,21 @@ footer {
     color: rgb(245, 245, 245);
 }
 
+.welcome, .welcome-icon, footer p, footer h4, .social-links a, .staff-name, .social-links li a i, .quotes .quote-icon i {
+    color: rgb(245, 245, 245);
+}
+
 .feature button a, .contacts a {
     color: rgb(245, 245, 245);
     text-decoration: none;
 }
 
-.welcome {
-    color: rgb(245, 245, 245);
-    font-weight: 300;
-}
-
-footer p, footer h4, .social-links a {
-    color: rgb(245, 245, 245);
-}
-
-.staff-name {
-    color:  rgb(245, 245, 245);
-}
-
-.staff-feature {
+.staff-feature, .staff-icon {
     background-color: rgba(245, 245, 245, 0.8);
+}
+
+.facility h3 {
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /*--------------------------------------------Fonts*/
@@ -107,6 +110,10 @@ body {
     }
 }
 
+.welcome-icon {
+    font-size: 60px;
+}
+
 footer {
     font-size: 15px;
 }
@@ -119,16 +126,37 @@ footer h4 {
     font-size: 35px;
 }
 
-.facility h5, .treatment h5, .feature h5 {
+.facility h5, .treatment h5, .feature h5, .staff-name h4, .quotes .quote-icon i {
     font-size: 30px;
+}
+
+@media (max-width: 991px) {
+    .treatment h5 {
+        font-size: 20px;
+    }
+    .treatment p {
+        font-size: 15px;
+    }
+}
+
+.treatment-desc {
+    font-size: 16px;
+}
+
+.treatment-price, .treatment-duration {
+    font-size: 17px;
+}
+
+.facility p {
+    font-size: 18px;
 }
 
 .staff-feature p {
     font-size: 20px;
 }
 
-.staff-name h4 {
-    font-size: 30px;
+.staff-icon {
+    font-size: 45px;
 }
 
 /*--------------------------------------------Margins/Paddings - general*/
@@ -145,6 +173,14 @@ footer h4 {
 
 .header, .footer, .navbar {
     margin: 0;
+}
+
+.banner {
+    margin-bottom: 40px;
+}
+
+footer h4 {
+    margin-bottom: 5px;
 }
 
 /*--------------------------------------------Images*/
@@ -251,10 +287,6 @@ footer h4 {
 
 /*--------------------------------------------Footer - all pages*/
 
-footer {
-    height: auto;
-}
-
 .address, .contacts, .social {
     padding: 20px 0px 0px 35px;
 }
@@ -270,8 +302,6 @@ footer {
     border-radius: 50%;
     font-size: 30px;
     text-align: center;
-    color: rgb(245, 245, 245);
-    background: #7e0000;
 }
 
 /*--------------------------------------------Banner - all pages*/
@@ -280,26 +310,18 @@ footer {
     height: 100%;
 }
 
-.welcome {
+.welcome, .welcome-icon {
     text-align: center;
+}
+
+.welcome {
     padding-top: 5%;
 }
 
 @media (max-width:600px) {
     .welcome {
-        text-align: center;
         padding-top: 80px;
     }
-}
-
-.welcome-icon {
-    text-align: center;
-}
-
-.welcome-icon i {
-    font-size: 60px;
-    text-align: center;
-    color: rgb(245, 245, 245);
 }
 
 .banner {
@@ -307,7 +329,6 @@ footer {
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Home page*/
@@ -316,10 +337,7 @@ footer {
 
 .feature {
     text-align: center;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
     height: inherit;
 }
 
@@ -347,7 +365,6 @@ footer {
 /*-----------------------------------Quotes*/
 
 .quotes {
-    height: auto;
     margin-left: 2.5%;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -371,7 +388,6 @@ footer {
 
 .author {
     text-align: right;
-    color: rgb(82, 82, 82);
 }
 
 .quotes .quote-icon i {
@@ -379,19 +395,110 @@ footer {
     height: 50px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 30px;
     text-align: center;
-    color: rgb(245, 245, 245);
-    background: #7e0000;
 }
 
-.col-sm-1 {
+.quote-icon {
     text-align: right;
     padding-top: 30px;
 }
 
-footer h4 {
-    margin-bottom: 5px;
+/*--------------------------------------------Treatments - Page*/
+
+.treatment {
+    height: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.treatment h5 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .treatment h5 {
+        margin-bottom: 15px;
+    }
+}
+
+.treatment-bg {
+    width: 35%;
+    height: inherit;
+    margin: 0;
+    float: left;
+}
+
+.treatment-body {
+    width: 65%;
+    float: left;
+    height: 100%;
+}
+
+.treatment-desc {
+    height: 85%;
+    padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.treatment-price, .treatment-duration {
+    width: 50%;
+    float: left;
+    height: 15%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.treatment-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*--------------------------------------------Facilities - Page*/
+
+.facility {
+    height: 250px;
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 30px;
+}
+
+.facility h5 {
+    margin-bottom: 20px;
+}
+
+.facility-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------------Effect - display facility description when hovering */
+
+.facility p, .facility h5 {
+    opacity: 0;
+    transition: opacity 1s linear;
+    display: none;
+}
+
+.facility:hover p, .facility:hover h5 {
+    opacity: 1;
+    display: block;
+}
+
+.facility h3 {
+    display: inline-block;
+    opacity: 1;
+    text-transform: uppercase;
+    border: solid 1px;
+    padding: 3px 10px 3px 10px;
+    margin-top: 10%;
+    transition: opacity 1s linear;
+}
+
+.facility:hover h3 {
+    opacity: 0;
+    display: none;
 }
 
 /*--------------------------------------------Team - Page*/
@@ -428,9 +535,6 @@ footer h4 {
 }
 
 @media (max-width: 768px) {
-    /* .team-description {
-        text-align: left;
-    } */
     .team-pic {
         margin-bottom: 30px;
     }
@@ -465,15 +569,13 @@ footer h4 {
 
 }
 
-.staff-feature p{
+.staff-feature p {
     padding-top: 5px;
 }
 
 .staff-icon {
     width: 70px;
     height: 70px;
-    font-size: 45px;
-    background-color: rgba(245, 245, 245, 0.8);
     margin-bottom: 5px;
     text-align: center;
     padding: 0px;
@@ -486,127 +588,6 @@ footer h4 {
 
 .staff-feature p {
     margin-bottom: 0;
-}
-
-/*--------------------------------------------Facilities - Page*/
-
-.facility {
-    height: 250px;
-    text-align: center;
-    padding: 10%;
-    margin-bottom: 30px;
-}
-
-.facility h5 {
-    margin-bottom: 20px;
-}
-
-.facility-bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.facility p {
-    font-size: 18px;
-}
-
-.facility p, .facility h5 {
-    opacity: 0;
-    transition: opacity 1s linear;
-    transition-delay: 3s;
-    display: none;
-}
-
-.facility:hover p, .facility:hover h5 {
-    opacity: 1;
-    display: block;
-}
-
-.facility h3 {
-    display: inline-block;
-    opacity: 1;
-    text-transform: uppercase;
-    color: rgb(83, 0, 0);
-    border: solid 1px;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 3px 10px 3px 10px;
-    margin-top: 10%;
-    transition: opacity 1s linear;
-}
-
-.facility:hover h3 {
-    opacity: 0;
-    display: none;
-}
-
-/*--------------------------------------------Treatments - Page*/
-
-.treatment {
-    height: 250px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.treatment h5 {
-    margin-bottom: 20px;
-}
-
-@media (max-width: 991px) {
-    .treatment h5 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-    .treatment p {
-        font-size: 15px;
-    }
-}
-
-.treatment-bg {
-    width: 35%;
-    height: inherit;
-    margin: 0;
-    float: left;
-}
-
-.treatment-body {
-    width: 65%;
-    float: left;
-    height: 100%;
-}
-
-.treatment-desc {
-    height: 85%;
-    padding-top: 10%;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-}
-
-.treatment-price {
-    width: 50%;
-    float: left;
-    height: 15%;
-    text-align: center;
-    padding-top: 5px;
-    font-style: italic;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.treatment-duration {
-    width: 50%;
-    float: left;
-    height: 15%;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.treatment-bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 /*--------------------------------------------Code from other sources*/
