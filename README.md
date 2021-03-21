@@ -1,6 +1,6 @@
-# LittleFlowers SPA
+# LittleFlowers Spa
 
-LittleFlowers is a SPA that offers a multitude of services, treatments and facilities.
+LittleFlowers is a spa located in Galway (Ireland) that offers a multitude of services, treatments and facilities.
 
 
 # Table Of Contents
@@ -26,8 +26,8 @@ LittleFlowers is a SPA that offers a multitude of services, treatments and facil
 The goal of this website is to showcase the spa, allowing customers to see what facilities are available, what treatments are offered and who is performing them.
 The owner of the spa wants to increase the visibility and online presence of his business in order to increment its revenue. 
 
-- As a SPA customer, I want to see the different treatments offered, their prices, and send enquiries to the SPA
-- As a SPA customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
+- Case 1: As a spa customer, I want to see the different treatments offered, their prices, and send enquiries to the spa
+- Case 2: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
 
 ### The Scope Plane
 
@@ -57,7 +57,7 @@ The website will have a simple structure to meet the users needs:
 The color palette of the website will be dark red - dark pink - pink - white.
 Fonts will be:
 - Philosopher for headings and logo
-- Nunito for "normal" text
+- Nunito for standard text
 
 ## Features
 
@@ -70,7 +70,7 @@ Fonts will be:
 - Feature 2 - allows potential customers to know the staff and their professional background
 - Feature 3 - allows returning customers to check if the staff member who gave them the treatment previously is still working there, get their name and request the treatment with them again in case they enjoyed it the first time
 - Feature 4 - allows potential and returning customers to get in touch to check availability, book or ask questions by calling or sending an email
-- Feature 5 - allows potential customers to see all the social pages of the SPA
+- Feature 5 - allows potential customers to see all the social pages of the spa
 - Feature 6 - allows potential customers to have a preview of the facilities available (sauna, steam room, pool, hot tub)
 
 
@@ -80,7 +80,7 @@ Fonts will be:
 ## Technologies Used
 
 - [Balsamiq](https://balsamiq.com/) for the wireframes of this readme.md file
-- [Bootstrap](https://getbootstrap.com/) to use the grid system, pre-formatted buttons in home-page, collapsible navabr
+- [Bootstrap](https://getbootstrap.com/) to use the grid system, pre-formatted buttons in home-page, collapsible navbar
 - [Animate.css](https://animate.style/) for transitions of banner heading of each page
 - [FontAwesome](https://fontawesome.com/) for icons
 - [Google Fonts](https://fonts.google.com/) for fonts
@@ -89,13 +89,20 @@ Fonts will be:
 
 ## Testing
 
-Usability and responsiveness have been tested on the followin browsers:
+Usability and responsiveness were tested on the followin browsers:
 - Google Chrome (Version 89.0.4389.72 (Official Build) (x86_64))
 - Firefox (86.0 (64-bit))
 - Safari (Version 13.0.5 (15608.5.11))
 - Microsoft Edge (Version 89.0.774.57 (Official Build) (64bit))
 
 All sections and divs adapted to the screen size as expected, all links worked fine and the navigation was flawless.
+
+Case 1: As a spa customer, I want to see the different treatments offered, their prices, and send enquiries to the spa
+- Treatments are described in a dedicated page, with a clear indication of price and duration.
+- It's possible to enquire with the spa from any page using the clickable links in the footer to send an email or make a phone call.
+
+Case 2: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
+- This is possible from the Team page, which highlights in a clear and structured way each staff member's experience/background, tenure at the spa and speciality or certification.
 
 The Google Chrome Lighthouse feature was used on all 4 pages to measure Performance, Accessibility, Best Practices and SEO.
 Results can be seen here:
@@ -107,23 +114,23 @@ Results can be seen here:
 I used the following validators to check my HTML and CSS code:
 
 [HTML Validator](https://validator.w3.org/)
-Document checking completed. No errors or warnings to show.
+Outcome: Document checking completed. No errors or warnings to show. (all 4 pages)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/validator)
 Outcome: Congratulations! No Error Found.
 
 ### Bugs
 
-- I initially didn't use the container class when using bootstrap grid (which should have the structure container > row > column) which caused horizontal overflow.
+- I initially didn't use the container class when using bootstrap grid (which should have the structure container > row > column). This caused horizontal overflow.
 After adding the container (or container-fluid) class, the issue was fixed.
 
 - I wasn't able to configure a collapsible navbar from [Bootstrap instructions](https://getbootstrap.com/docs/4.0/components/navbar/).
 I used the scripts at the end of [this repository](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/03-progressive_enhancements_with_javascript_components-part-1/index.html) instead.
 
 - I wanted the navbar to be always at the top of the page, even when scrolling down. This caused the navbar to cover the banner too.
-To avoid this, I just added a div called with class fix-navbar-issue, with the only purpose of "pushing down" the banner so that the navbar didn't cover it.
+To avoid this, I just added a div with class fix-navbar-issue, with the only purpose of "pushing down" the banner so that the navbar didn't cover it.
 
-- I tried to set a transition in the Facilities pages using the visibility value, which didn't work. I found [here](https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working) the reason why and changed the transition to affect the opacity value.
+- I tried to set a transition in the Facilities page using the visibility value, which didn't work. I found [here](https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working) the reason why and changed the transition to affect the opacity value.
 
 ## Deployment
 
@@ -132,7 +139,7 @@ This project was developed using GitPod, pushed to GitHub and deployed using Git
 To deploy to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into GitHub
-2. From the list of repositories on the screen, select **matteofiorini92/LittleFlowers-SPA**
+2. From the list of repositories on the screen, select **matteofiorini92/LittleFlowers-Spa**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
 5. Under **Source** click the drop-down menu labelled **None** and select **main**
@@ -158,7 +165,7 @@ Then follow these steps:
 
 To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
-1. Follow this link to the [GitHub repository](https://github.com/matteofiorini92/Flowers-SPA)
+1. Follow this link to the [GitHub repository](https://github.com/matteofiorini92/Flowers-Spa)
 2. Click on the Code button
 3. In the drop-down, copy the URL that you see in the HTTPs tab
 4. In your local IDE, open the terminal
@@ -203,4 +210,4 @@ The photos used in this site were obtained from
 
 ### Acknowledgements
 
-The content of the deployment section was mostly taken from [this webinar](https://www.youtube.com/watch?v=7BteidgLAyM).
+The content of the deployment section of this readme.md was mostly taken from [this webinar](https://www.youtube.com/watch?v=7BteidgLAyM).
