@@ -1,5 +1,9 @@
 # LittleFlowers Spa
 
+![home page all screen sizes](https://raw.githubusercontent.com/matteofiorini92/LittleFlowers-Spa/main/assets/images/banner/littleflowers-readme-banner.jpg)
+
+[Link to deployed website](https://matteofiorini92.github.io/LittleFlowers-Spa/)
+
 LittleFlowers is a spa located in Galway (Ireland) that offers a multitude of services, treatments and facilities.
 
 
@@ -14,10 +18,10 @@ LittleFlowers is a spa located in Galway (Ireland) that offers a multitude of se
 
 ## User Experience
 
--   [The Strategy Plane](#the-strategy-plane)
+-   [User Stories](#user-stories)
 -   [The Scope Plane](#the-Scope-plane)
 -   [The Structure Plane](#the-structure-plane)
--   [The Skeleton Plane](#the-skeleton-plane)
+-   [Wireframes](#wireframes)
 -   [The Surface Plane](#the-surface-plane)
 
 
@@ -26,8 +30,13 @@ LittleFlowers is a spa located in Galway (Ireland) that offers a multitude of se
 The goal of this website is to showcase the spa, allowing customers to see what facilities are available, what treatments are offered and who is performing them.
 The owner of the spa wants to increase the visibility and online presence of his business in order to increment its revenue. 
 
-- Case 1: As a spa customer, I want to see the different treatments offered, their prices, and send enquiries to the spa
-- Case 2: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
+- User story 1: As a spa customer, I want to see the different treatments offered
+- User story 2: As a spa customer, I want to know each treatments duration and price in order to be able to plan my stay based on budget and time
+- User story 3: As a spa customer, I want to be able to contact the spa via phone or email to check availability and make reservations
+- User story 4: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
+- User story 5: As a spa customer, I want to know what facilities the spa offers
+- User story 6: As a spa customer, I want to know where the spa is located in order to plan my stay 
+- User story 7: As a spa customer, I want to be able to see feedbacks from previous coustomers and from the spa's social media accounts
 
 ### The Scope Plane
 
@@ -47,10 +56,10 @@ The website will have a simple structure to meet the users needs:
 
 ### Wireframes
 
-- [Home Page Wireframe](https://drive.google.com/file/d/16jf2mTJFocQcSzgAo074IYApLB4rgJuD/view?usp=sharing)
-- [Treatments Page Wireframe](https://drive.google.com/file/d/1DI111dHViTy4XiTRItU8Bvbig9kdWBnV/view?usp=sharing)
-- [Facilities Page Wireframe](https://drive.google.com/file/d/1pFnuEb9Rg5QKEU8gdVohRA5FFmPtqEWZ/view?usp=sharing)
-- [Team Page Wireframe](https://drive.google.com/file/d/1mtRimAEPNAdOj-dA3KNnCuePRDBZf9XW/view?usp=sharing)
+- [Home Page Wireframe](https://github.com/matteofiorini92/LittleFlowers-Spa/blob/main/assets/images/wireframes/wireframes-homepage.pdf)
+- [Treatments Page Wireframe](https://github.com/matteofiorini92/LittleFlowers-Spa/blob/main/assets/images/wireframes/wireframes-treatments.pdf)
+- [Facilities Page Wireframe](https://github.com/matteofiorini92/LittleFlowers-Spa/blob/main/assets/images/wireframes/wireframes-facilities.pdf)
+- [Team Page Wireframe](https://github.com/matteofiorini92/LittleFlowers-Spa/blob/main/assets/images/wireframes/wireframes-team.pdf)
 
 ### The Surface Plane
 
@@ -97,12 +106,26 @@ Usability and responsiveness were tested on the followin browsers:
 
 All sections and divs adapted to the screen size as expected, all links worked fine and the navigation was flawless.
 
-Case 1: As a spa customer, I want to see the different treatments offered, their prices, and send enquiries to the spa
-- Treatments are described in a dedicated page, with a clear indication of price and duration.
-- It's possible to enquire with the spa from any page using the clickable links in the footer to send an email or make a phone call.
+User story 1: As a spa customer, I want to see the different treatments offered
+- This was achieved by having a page dedicated to treatments with a short description for each of them.
 
-Case 2: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
-- This is possible from the Team page, which highlights in a clear and structured way each staff member's experience/background, tenure at the spa and speciality or certification.
+User story 2: As a spa customer, I want to know each treatments duration and price in order to be able to plan my stay based on budget and time
+- In the treatments page every element has its own duration and price structured in a clear way.
+
+User story 3: As a spa customer, I want to be able to contact the spa via phone or email to check availability and make reservations
+- Phone number and email address are at the bottom of each page, and they are clickable links to make it easier for the guest to get in touch with the spa.
+
+User story 4: As a spa customer, I want to know who is going to do the treatment, what's their professional background and what they are specialised in.
+- There is a dedicated team page, with names, pictures, professional backgrounds of all staff members.
+
+User story 5: As a spa customer, I want to know what facilities the spa offers
+- The Facilities page shows a small preview and a short description of each facility of the spa.
+
+User story 6: As a spa customer, I want to know where the spa is located in order to plan my stay
+- The address of the spa is at the bottom of each page.
+
+User story 7: As a spa customer, I want to be able to see feedbacks from previous coustomers and from the spa's social media accounts
+- There is a small feedback section in the home page and links to all social media pages of the spa in the footer of each page.
 
 The Google Chrome Lighthouse feature was used on all 4 pages to measure Performance, Accessibility, Best Practices and SEO.
 Results can be seen here:
@@ -114,10 +137,22 @@ Results can be seen here:
 I used the following validators to check my HTML and CSS code:
 
 [HTML Validator](https://validator.w3.org/)
-Outcome: Document checking completed. No errors or warnings to show. (all 4 pages)
+- [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatteofiorini92.github.io%2FLittleFlowers-Spa%2Findex.html)
+- [Treatments](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatteofiorini92.github.io%2FLittleFlowers-Spa%2Ftreatments.html)
+- [Facilities](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatteofiorini92.github.io%2FLittleFlowers-Spa%2Ffacilities.html)
+- [Team](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatteofiorini92.github.io%2FLittleFlowers-Spa%2Fteam.html)
 
-[CSS Validator](https://jigsaw.w3.org/css-validator/validator)
-Outcome: Congratulations! No Error Found.
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+[style.css file](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatteofiorini92.github.io%2FLittleFlowers-Spa%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+      
 
 ### Bugs
 
@@ -133,6 +168,8 @@ To avoid this, I just added a div with class fix-navbar-issue, with the only pur
 - I tried to set a transition in the Facilities page using the visibility value, which didn't work. I found [here](https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working) the reason why and changed the transition to affect the opacity value.
 
 ## Deployment
+
+[Link to deployed website](https://matteofiorini92.github.io/LittleFlowers-Spa/)
 
 This project was developed using GitPod, pushed to GitHub and deployed using GitHub Pages.
 
