@@ -21,7 +21,7 @@ LittleFlowers is a spa located in Galway (Ireland) that offers a multitude of se
 -   [The Surface Plane](#the-surface-plane)
 
 
-### The Strategy Plane
+### User Stories
 
 The goal of this website is to showcase the spa, allowing customers to see what facilities are available, what treatments are offered and who is performing them.
 The owner of the spa wants to increase the visibility and online presence of his business in order to increment its revenue. 
@@ -45,7 +45,7 @@ The website will have a simple structure to meet the users needs:
     2. if a returning customer had a treatment in the past and want to book another treatment with the same person, they can easily do so even if they didn't remember the team member's name.
 - All pages will have contact details in the footer, so that at any point the customer can contact the spa to check the availability and book an appointment.
 
-### The Skeleton Plane
+### Wireframes
 
 - [Home Page Wireframe](https://drive.google.com/file/d/16jf2mTJFocQcSzgAo074IYApLB4rgJuD/view?usp=sharing)
 - [Treatments Page Wireframe](https://drive.google.com/file/d/1DI111dHViTy4XiTRItU8Bvbig9kdWBnV/view?usp=sharing)
